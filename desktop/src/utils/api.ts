@@ -1,0 +1,20 @@
+export enum API {
+    login = "vhu/auth/login",
+    getAllSubject = "vhu/subject/getAll",
+    getAllMajor = "vhu/subject/major/getAll",
+    createStudent = "vhu/student/create",
+    getAllStudent = "vhu/student/getAll",
+    getAllTeacher = "vhu/student/teacher/getAll",
+    getTeachSemeter = "vhu/teach/getTeachSemeter",
+    getSemeter = "vhu/teach/getSemeter",
+    openSemeter = "vhu/teach/openSemeter",
+    closeSemeter = "vhu/teach/closeSemeter",
+    getDetailStudent = "vhu/student/getDetail",
+    signTeach = "vhu/teach/signTeach",
+    getSignTeach = "vhu/teach/getSignTeach",
+    deteleSignTeach = "vhu/teach/deteleSignTeach",
+    pay = "vhu/fee/pay",
+    getFee = "vhu/fee/getFee",
+    getAllFee = "vhu/fee/getAllFee",
+
+}

@@ -1,0 +1,45 @@
+
+  .footer {
+    margin: auto;
+    width: 100%;
+  }
+  .footer_box {
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #234384;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    background-image: url('../images/ft-trongdong.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-blend-mode: soft-light;
+  }
+  .navbar-logo{
+    width: 22em;
+  }
+  .footer__info table tr th {
+    color: white;
+    text-align: left;
+  }
+  .footer__info table tr td {
+    color: #92caed;
+    padding: 15px;
+  }
+  .footerCopyright {
+    background-image: url('../images/line-nhan-dien.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .footerCopyright__a {
+    color: white;
+    text-decoration: none;
+  }
+  .footer__logo{
+    width: 45%;
+  }
+
